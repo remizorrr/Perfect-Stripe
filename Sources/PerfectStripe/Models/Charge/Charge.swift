@@ -12,6 +12,8 @@ extension Stripe {
 /// To charge a credit or a debit card, you create a charge object. You can retrieve and refund individual charges as well as list all charges. Charges are identified by a unique random ID.
 	public struct Charge: Codable {
 
+        public init() {}
+        
 		/// Unique identifier for the object
 		public var id: String?
 
